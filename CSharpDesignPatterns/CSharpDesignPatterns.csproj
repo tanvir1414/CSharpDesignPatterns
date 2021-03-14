@@ -1,9 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="com.13factory\**" />
+    <EmbeddedResource Remove="com.13factory\**" />
+    <None Remove="com.13factory\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="com.11singleton\Logger.cs" />
@@ -17,6 +23,7 @@
     <Folder Include="com.11singleton\" />
     <Folder Include="com.12basicconcepts\" />
     <Folder Include="com.13factory\" />
+    <Folder Include="com.15templatemethod\" />
   </ItemGroup>
 
 </Project>
