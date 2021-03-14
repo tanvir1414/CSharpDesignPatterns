@@ -4,6 +4,11 @@ using System.Text;
 
 namespace CSharpDesignPatterns.com._12basicconcepts
 {
+    interface IA
+    {
+        void MethodA();
+    }
+
     class A
     {
         public virtual void MethodA()
@@ -12,7 +17,7 @@ namespace CSharpDesignPatterns.com._12basicconcepts
         }
     }
 
-    class B :A
+    class B : A,IA
     {
         public override void MethodA()
         {
@@ -40,14 +45,18 @@ namespace CSharpDesignPatterns.com._12basicconcepts
             A obj1 = new B();
             obj1.MethodA();
 
-            //why cannot call b object
+            // cannot call b object
             
 
             Console.WriteLine("-------");
-            ((B)obj1).MethodA();
+            Console.WriteLine("Casting");
+            ((B)obj1).MethodA(); //calling b object
             (obj1 as B).MethodB();
 
-
+            IA obj3;
+            obj3 = new B();
+            obj3.MethodA();
+            
 
             //cannot do this
             //B obj2 = new A();

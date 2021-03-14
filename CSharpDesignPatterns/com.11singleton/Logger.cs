@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSharpDesignPatterns.com._11singleton
 {
-    class Logger
+    public class Logger
     {
         //static method only can access static object
         //  private static Logger logger;

@@ -10,6 +10,7 @@
     <Compile Remove="com.11singleton\TestLogger.cs" />
     <Compile Remove="com.12basicconcepts\A.cs" />
     <Compile Remove="com.12basicconcepts\Employee.cs" />
+    <Compile Remove="com.12basicconcepts\IEmail.cs" />
   </ItemGroup>
 
   <ItemGroup>
