@@ -7,8 +7,11 @@
 
   <ItemGroup>
     <Compile Remove="com.13factory\**" />
+    <Compile Remove="com.15templatemethod\**" />
     <EmbeddedResource Remove="com.13factory\**" />
+    <EmbeddedResource Remove="com.15templatemethod\**" />
     <None Remove="com.13factory\**" />
+    <None Remove="com.15templatemethod\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +26,7 @@
     <Folder Include="com.11singleton\" />
     <Folder Include="com.12basicconcepts\" />
     <Folder Include="com.13factory\" />
+    <Folder Include="com.15templatemethod\" />
   </ItemGroup>
 
 </Project>

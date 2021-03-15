@@ -6,6 +6,9 @@ namespace CSharpDesignPatterns.com._15templatemethod
 {
     public abstract class DataProcessor
     {
+        // Template Method: Subclasses decide how to implement
+        //  steps in an algorithm.
+
         public void ReadProcessandSave()
         {
             ReadData();
