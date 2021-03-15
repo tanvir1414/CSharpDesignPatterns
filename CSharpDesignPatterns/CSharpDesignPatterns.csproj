@@ -26,6 +26,11 @@
     <Compile Remove="com.14adapter\IVendor.cs" />
     <Compile Remove="com.14adapter\TestAdapter.cs" />
     <Compile Remove="com.14adapter\VendorSystem.cs" />
+    <Compile Remove="com.16facade\Car.cs" />
+    <Compile Remove="com.16facade\ClientTest.cs" />
+    <Compile Remove="com.16facade\Driver.cs" />
+    <Compile Remove="com.16facade\InsuraceFacade.cs" />
+    <Compile Remove="com.16facade\Location.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +39,7 @@
     <Folder Include="com.13factory\" />
     <Folder Include="com.14adapter\" />
     <Folder Include="com.15templatemethod\" />
+    <Folder Include="com.16facade\" />
   </ItemGroup>
 
 </Project>
