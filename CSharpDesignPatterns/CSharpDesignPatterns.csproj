@@ -23,7 +23,6 @@
     <Folder Include="com.11singleton\" />
     <Folder Include="com.12basicconcepts\" />
     <Folder Include="com.13factory\" />
-    <Folder Include="com.15templatemethod\" />
   </ItemGroup>
 
 </Project>
