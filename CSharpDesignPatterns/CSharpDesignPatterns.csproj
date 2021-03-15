@@ -27,6 +27,7 @@
     <Folder Include="com.12basicconcepts\" />
     <Folder Include="com.13factory\" />
     <Folder Include="com.15templatemethod\" />
+    <Folder Include="com.16facade\" />
   </ItemGroup>
 
 </Project>

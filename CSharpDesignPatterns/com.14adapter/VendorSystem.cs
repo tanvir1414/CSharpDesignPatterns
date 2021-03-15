@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpDesignPatterns.com14adapter
+namespace CSharpDesignPatterns.com._14adapter
 {
     public class VendorSystem : IVendor
     {
