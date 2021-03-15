@@ -37,6 +37,15 @@
     <Compile Remove="com.17strategy\Multiply.cs" />
     <Compile Remove="com.17strategy\Substract.cs" />
     <Compile Remove="com.17strategy\TestStrategy.cs" />
+    <Compile Remove="com.18state\IMeetingState.cs" />
+    <Compile Remove="com.18state\StateContext.cs" />
+    <Compile Remove="com.18state\StateLive.cs" />
+    <Compile Remove="com.18state\StateOffline.cs" />
+    <Compile Remove="com.18state\TestState.cs" />
+    <Compile Remove="com.19proxy\ITwitter.cs" />
+    <Compile Remove="com.19proxy\ProxyServer.cs" />
+    <Compile Remove="com.19proxy\RealTimeTweets.cs" />
+    <Compile Remove="com.19proxy\TestProxy.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,6 +56,8 @@
     <Folder Include="com.15templatemethod\" />
     <Folder Include="com.16facade\" />
     <Folder Include="com.17strategy\" />
+    <Folder Include="com.18state\" />
+    <Folder Include="com.19proxy\" />
   </ItemGroup>
 
 </Project>

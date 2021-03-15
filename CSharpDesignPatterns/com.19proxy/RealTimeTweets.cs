@@ -12,9 +12,13 @@ namespace CSharpDesignPatterns.com._19proxy
         {
             this.twitterHandle = twitterHandle;
         }
+
+        /**
+         *  Displays the tweets
+         */
         public void DisplayTweets()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Displaying tweets for " + twitterHandle);
         }
     }
 }
