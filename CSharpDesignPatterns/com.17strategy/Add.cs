@@ -6,7 +6,7 @@ namespace CSharpDesignPatterns.com._17strategy
 {
     class Add : IStrategy
     {
-        public int execute(int a, int b)
+        public int Execute(int a, int b)
         {
             Console.WriteLine("Called Add's excute()");
             return a + b;

@@ -6,7 +6,7 @@ namespace CSharpDesignPatterns.com._17strategy
 {
     class Multiply : IStrategy
     {
-        public int execute(int a, int b)
+        public int Execute(int a, int b)
         {
             Console.WriteLine("Called Multiply's excute()");
             return a * b;

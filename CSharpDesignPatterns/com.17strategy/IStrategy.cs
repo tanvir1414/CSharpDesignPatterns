@@ -6,6 +6,6 @@ namespace CSharpDesignPatterns.com._17strategy
 {
     interface IStrategy
     {
-        int execute(int a, int b);
+        int Execute(int a, int b);
     }
 }

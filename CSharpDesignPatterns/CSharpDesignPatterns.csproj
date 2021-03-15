@@ -31,6 +31,12 @@
     <Compile Remove="com.16facade\Driver.cs" />
     <Compile Remove="com.16facade\InsuraceFacade.cs" />
     <Compile Remove="com.16facade\Location.cs" />
+    <Compile Remove="com.17strategy\Add.cs" />
+    <Compile Remove="com.17strategy\Context.cs" />
+    <Compile Remove="com.17strategy\IStrategy.cs" />
+    <Compile Remove="com.17strategy\Multiply.cs" />
+    <Compile Remove="com.17strategy\Substract.cs" />
+    <Compile Remove="com.17strategy\TestStrategy.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,6 +46,7 @@
     <Folder Include="com.14adapter\" />
     <Folder Include="com.15templatemethod\" />
     <Folder Include="com.16facade\" />
+    <Folder Include="com.17strategy\" />
   </ItemGroup>
 
 </Project>
