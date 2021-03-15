@@ -20,14 +20,20 @@
     <Compile Remove="com.12basicconcepts\A.cs" />
     <Compile Remove="com.12basicconcepts\Employee.cs" />
     <Compile Remove="com.12basicconcepts\IEmail.cs" />
+    <Compile Remove="com.14adapter\Adapter.cs" />
+    <Compile Remove="com.14adapter\ClientSystem.cs" />
+    <Compile Remove="com.14adapter\IClient.cs" />
+    <Compile Remove="com.14adapter\IVendor.cs" />
+    <Compile Remove="com.14adapter\TestAdapter.cs" />
+    <Compile Remove="com.14adapter\VendorSystem.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="com.11singleton\" />
     <Folder Include="com.12basicconcepts\" />
     <Folder Include="com.13factory\" />
+    <Folder Include="com.14adapter\" />
     <Folder Include="com.15templatemethod\" />
-    <Folder Include="com.16facade\" />
   </ItemGroup>
 
 </Project>
