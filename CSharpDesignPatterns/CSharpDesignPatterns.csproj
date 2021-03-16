@@ -67,6 +67,19 @@
     <Compile Remove="com.22composite\IEmployee.cs" />
     <Compile Remove="com.22composite\Manager.cs" />
     <Compile Remove="com.22composite\TestComposite.cs" />
+    <Compile Remove="com.23decorator\ChocolateIceCream.cs" />
+    <Compile Remove="com.23decorator\FudgeTopping.cs" />
+    <Compile Remove="com.23decorator\GummiesTopping.cs" />
+    <Compile Remove="com.23decorator\IceCream.cs" />
+    <Compile Remove="com.23decorator\IceCreamDecorator.cs" />
+    <Compile Remove="com.23decorator\NutsTopping.cs" />
+    <Compile Remove="com.23decorator\TestIceCreamShop.cs" />
+    <Compile Remove="com.23decorator\VanillaIceCream.cs" />
+    <Compile Remove="com.24observer\Blog.cs" />
+    <Compile Remove="com.24observer\IObserver.cs" />
+    <Compile Remove="com.24observer\ISubject.cs" />
+    <Compile Remove="com.24observer\TestObserver.cs" />
+    <Compile Remove="com.24observer\User.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -82,6 +95,8 @@
     <Folder Include="com.20chainofresponsibilty\" />
     <Folder Include="com.21bridge\" />
     <Folder Include="com.22composite\" />
+    <Folder Include="com.23decorator\" />
+    <Folder Include="com.24observer\" />
   </ItemGroup>
 
 </Project>
