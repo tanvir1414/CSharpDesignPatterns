@@ -46,6 +46,27 @@
     <Compile Remove="com.19proxy\ProxyServer.cs" />
     <Compile Remove="com.19proxy\RealTimeTweets.cs" />
     <Compile Remove="com.19proxy\TestProxy.cs" />
+    <Compile Remove="com.20chainofresponsibilty\AddNumbers.cs" />
+    <Compile Remove="com.20chainofresponsibilty\Class1.cs" />
+    <Compile Remove="com.20chainofresponsibilty\DivideNumbers.cs" />
+    <Compile Remove="com.20chainofresponsibilty\IChain.cs" />
+    <Compile Remove="com.20chainofresponsibilty\MultiplyNumbers.cs" />
+    <Compile Remove="com.20chainofresponsibilty\Numbers.cs" />
+    <Compile Remove="com.20chainofresponsibilty\SubtractNumbers.cs" />
+    <Compile Remove="com.20chainofresponsibilty\TestChain.cs" />
+    <Compile Remove="com.21bridge\Department.cs" />
+    <Compile Remove="com.21bridge\Employee.cs" />
+    <Compile Remove="com.21bridge\FullTime.cs" />
+    <Compile Remove="com.21bridge\IT.cs" />
+    <Compile Remove="com.21bridge\PartTime.cs" />
+    <Compile Remove="com.21bridge\Sales.cs" />
+    <Compile Remove="com.21bridge\TestBridge.cs" />
+    <Compile Remove="com.22composite\Developer.cs" />
+    <Compile Remove="com.22composite\Director.cs" />
+    <Compile Remove="com.22composite\Employee.cs" />
+    <Compile Remove="com.22composite\IEmployee.cs" />
+    <Compile Remove="com.22composite\Manager.cs" />
+    <Compile Remove="com.22composite\TestComposite.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -58,6 +79,9 @@
     <Folder Include="com.17strategy\" />
     <Folder Include="com.18state\" />
     <Folder Include="com.19proxy\" />
+    <Folder Include="com.20chainofresponsibilty\" />
+    <Folder Include="com.21bridge\" />
+    <Folder Include="com.22composite\" />
   </ItemGroup>
 
 </Project>
