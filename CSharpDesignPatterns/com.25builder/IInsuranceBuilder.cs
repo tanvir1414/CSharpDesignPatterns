@@ -6,11 +6,12 @@ namespace CSharpDesignPatterns.com._25builder
 {
     interface IInsuranceBuilder
     {
+        
         void BuildDriver();
         void BuildVehicle();
         void BuildLocation();
 
-        Insurace GetInsurace();
+        Insurance GetInsurance();
 
     }
 }
